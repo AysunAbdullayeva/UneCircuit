@@ -77,31 +77,31 @@ Below are images of the components used in our vehicle, corresponding to the Bil
 
 **Raspberry Pi 4 Model 4Gb**
 
-![image.png](component-photos\raspberry_pi_4.webp)
+![image.png](component-photos/raspberry_pi_4.webp)
 
 **Motor and Wheel Set (6V, 150 RPM)**
 
-![image.png](component-photos\motor_wheel_150rpm.webp)
+![image.png](component-photos/motor_wheel_150rpm.webp)
 
 **TB6612FNG Motor Driver**
 
-![image.png](component-photos\tb6612fng_driver.webp)
+![image.png](component-photos/tb6612fng_driver.webp)
 
 **HC-SR04 Ultrasonic Sensor**
 
-![image.png](component-photos\hc_sr04_sensor.webp)
+![image.png](component-photos/hc_sr04_sensor.webp)
 
 **Raspberry pi camera module**
 
-![image.png](component-photos\raspberry_pi_4.webp)
+![image.png](component-photos/raspberry_pi_4.webp)
 
 **Servo motor**
 
-![image.png](component-photos\surpass_hobby_servo.webp)
+![image.png](component-photos/surpass_hobby_servo.webp)
 
 **TCS3200 Color Sensor**
 
-![image.png](component-photos\tcs3200_sensor.webp)
+![image.png](component-photos/tcs3200_sensor.webp)
 
 ## Photos and Videos
 
