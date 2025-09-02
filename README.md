@@ -83,6 +83,10 @@ Below are images of the components used in our vehicle, corresponding to the Bil
 
 ![image.png](component-photos/motor_wheel_150rpm.webp)
 
+**L298 DC Motor Driver**
+
+![image.png](component-photos/L298_DC_Motor_Driver.jpg)
+
 **TB6612FNG Motor Driver**
 
 ![image.png](component-photos/tb6612fng_driver.webp)
@@ -93,7 +97,7 @@ Below are images of the components used in our vehicle, corresponding to the Bil
 
 **Raspberry pi camera module**
 
-![image.png](component-photos/raspberry_pi_4.webp)
+![image.png](component-photos/camera_module_v1_3.webp)
 
 **Servo motor**
 
