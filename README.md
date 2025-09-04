@@ -2,6 +2,22 @@
 
 This repository contains the engineering documentation for UneCirciut's self-driving vehicle, designed for the World Robot Olympiad (WRO) Future Engineers 2025 competition. Our project showcases a fully autonomous vehicle capable of navigating challenges through innovative mobility, power management, sensing, and obstacle management strategies.
 
+### Table of Contents
+- [Team Introduction](#team-introduction)
+- [Vehicle Design Overview](#vehicle-design-overview)
+  - [Mobility](#mobility)
+  - [Power Management](#power-management)
+  - [Sensing](#sensing)
+  - [Obstacle Management](#obstacle-management)
+  - [3D-Printed Components](#3d-printed-components)
+- [Electromechanical Schematics](#electromechanical-schematics)
+- [Code Structure and Integration](#code-structure-and-integration)
+  - [Code Modules](#code-modules)
+  - [Relation to Hardware](#relation-to-hardware)
+- [Component Photos](#component-photos)
+- [Photos and Videos](#photos-and-videos)
+- [Additional Resources](#additional-resources)
+
 ## Team Introduction
 
 UneCirciut consists of three members: Aysun Abdullayeva, Zubeyda Hasanli, and Aysu Huseynova. We are students from Azerbaijan State University of Economics, passionate about robotics and autonomous systems. Our goal was to design a robust vehicle that balances performance, reliability, and creativity, inspired by real-world self-driving technology.
@@ -41,6 +57,19 @@ Our obstacle management strategy combines sensor data and algorithms to navigate
 
 This approach was chosen because rule-based navigation ensures reliable performance in the structured WRO environment. We overcame issues like false positives from sensor noise by averaging multiple sensor readings.
 
+### 3D-Printed Components
+
+The vehicle's steering components were constructed using 3D-printed parts, designed to ensure durability, lightweight construction, and precise integration with our electromechanical systems. We utilized a set of 3D models from [Thingiverse](https://www.thingiverse.com/thing:4772279), which provided a robust foundation for our autonomous vehicle. Key 3D-printed components include:
+
+| <img src="models/altered_driveshaft.png" width="100%" /> | <img src="models/driveshaft_front.png" width="100%" /> | 
+| :--: | :--: | 
+| *Altered hub* | *Driveshaft front* |
+| <img src="models/Hub_front.png" width="90%" /> | <img src="models/pivot_hub.png" width="100%" /> | 
+| *Hub front* | *Pivot hub* |
+| <img src="models/seeger.png" width="100%" /> | <img src="models/steering_bar.png" width="100%" /> | 
+| *Seeger* | *Steering bar* |
+
+
 ## Electromechanical Schematics
 
 Detailed schematics will be added to the schemes/ directory:
@@ -71,41 +100,19 @@ Each file includes detailed comments explaining functionality, as judges may not
   Component Photos
   Below are images of the components used in our vehicle, corresponding to the Bill of Materials, located in the component-photos/ directory.
 
-## **Component Photos**
+## Component Photos
 
 Below are images of the components used in our vehicle, corresponding to the Bill of Materials.
 
-**Raspberry Pi 4 Model 4Gb**
-
-![image.png](component-photos/raspberry_pi_4.webp)
-
-**Motor and Wheel Set (6V, 150 RPM)**
-
-![image.png](component-photos/motor_wheel_150rpm.webp)
-
-**L298 DC Motor Driver**
-
-![image.png](component-photos/L298_DC_Motor_Driver.jpg)
-
-**TB6612FNG Motor Driver**
-
-![image.png](component-photos/tb6612fng_driver.webp)
-
-**HC-SR04 Ultrasonic Sensor**
-
-![image.png](component-photos/hc_sr04_sensor.webp)
-
-**Raspberry pi camera module**
-
-![image.png](component-photos/camera_module_v1_3.webp)
-
-**Servo motor**
-
-![image.png](component-photos/surpass_hobby_servo.webp)
-
-**TCS3200 Color Sensor**
-
-![image.png](component-photos/tcs3200_sensor.webp)
+| <img src="component-photos/raspberry_pi_4.webp" width="100%" /> | <img src="component-photos/motor_wheel_150rpm.webp" width="100%" /> | 
+| :--: | :--: | 
+| **Raspberry Pi 4 Model 4Gb** | **Motor and Wheel Set (6V, 150 RPM)** |
+| <img src="component-photos/L298_DC_Motor_Driver.jpg" width="100%" /> | <img src="component-photos/tb6612fng_driver.webp" width="100%" /> | 
+| **L298 DC Motor Driver** | **TB6612FNG Motor Driver** |
+| <img src="component-photos/hc_sr04_sensor.webp" width="90%" /> | <img src="component-photos/camera_module_v1_3.webp" width="100%" /> | 
+| **HC-SR04 Ultrasonic Sensor** | **Raspberry pi camera module** |
+| <img src="component-photos/surpass_hobby_servo.webp" width="100%" /> | <img src="component-photos/tcs3200_sensor.webp" width="100%" /> | 
+| **Servo motor** | **TCS3200 Color Sensor** |
 
 ## Photos and Videos
 
@@ -117,6 +124,5 @@ Below are images of the components used in our vehicle, corresponding to the Bil
 ## Additional Resources
 
 - **`models/`** contains STL files for 3D-printed chassis parts.
-- **`other/`** includes datasheets for sensors and motors.
 
-We encourage other teams to explore this repository for inspiration, as per the WRO’s open-sharing ethos. For questions, contact us at [unecirciut@gmail.com](mailto:unecirciut@gmail.com).
+We encourage other teams to explore this repository for inspiration, as per the WRO’s open-sharing ethos.
