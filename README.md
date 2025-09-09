@@ -87,19 +87,31 @@ These diagrams clarify how hardware components are wired and mounted, ensuring r
 Below are images of the components used in our vehicle.
 
 ![**Raspberry Pi 4 Model 4Gb**](component-photos/raspberry_pi_4.webp)
+
 **Raspberry Pi 4 Model 4Gb**
 
 ![**Motor and Wheel Set (6V, 150 RPM)r**](component-photos/motor_wheel_150rpm.webp)
+
 **Motor and Wheel Set (6V, 150 RPM)**
+
 ![**HC-SR04 Ultrasonic Sensor**](component-photos/hc_sr04_sensor.webp)
+
 **HC-SR04 Ultrasonic Sensor**
+
 ![**Raspberry pi camera module**](component-photos/camera_module_v1_3.webp)
+
 **Raspberry pi camera module**
+
 ![**Servo motor**](component-photos/9g_digital_servo.webp)
+
 **Servo motor**
+
 ![**TCS3200 Color Sensor**](component-photos/tcs3200_sensor.webp)
+
 **TCS3200 Color Sensor**
+
 ![**TB6612FNG Motor Driver**](component-photos/tb6612fng_driver.webp)
+
 **TB6612FNG Motor Driver**
 
 ## Code Structure and Integration
