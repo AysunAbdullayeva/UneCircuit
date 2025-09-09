@@ -84,10 +84,11 @@ These diagrams clarify how hardware components are wired and mounted, ensuring r
 
 ## Component Photos
 
-Below are images of the components used in our vehicle, corresponding to the Bill of Materials.
+Below are images of the components used in our vehicle.
 
 ![**Raspberry Pi 4 Model 4Gb**](component-photos/raspberry_pi_4.webp)
-**HC-SR04 Ultrasonic Sensor**
+**Raspberry Pi 4 Model 4Gb**
+
 ![**Motor and Wheel Set (6V, 150 RPM)r**](component-photos/motor_wheel_150rpm.webp)
 **Motor and Wheel Set (6V, 150 RPM)**
 ![**HC-SR04 Ultrasonic Sensor**](component-photos/hc_sr04_sensor.webp)
